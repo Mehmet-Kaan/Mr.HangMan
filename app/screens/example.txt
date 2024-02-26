@@ -1,0 +1,1 @@
+License of assets "the rope" vector - refer to Vecteezy.com
