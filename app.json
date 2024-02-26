@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Mr HangMan",
+    "slug": "mr-hangman",
+    "description": "Embark on a thrilling word-guessing adventure with our Hangman game! Challenge your vocabulary and deduction skills as you decipher hidden words across a variety of exciting categories. Immerse yourself in a visually stunning environment, featuring captivating backgrounds and vibrant avatars. With multiple levels to conquer, each presenting a unique set of words, you'll test your linguistic prowess to the limit. Earn points for correct guesses, build impressive streaks, and unlock new avatars to showcase your progress. But beware of the hangman's noose – with each incorrect guess, your chances dwindle. Can you reveal the mystery words, achieve the best streak, and become the ultimate Hangman champion? Play now and unravel the words that await your mastery!",
+    "version": "1.0.1",
+    "orientation": "landscape",
+    "icon": "./app/assets/favicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./app/assets/mainIcon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mkaan.mrhangman"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mkaan.mrhangman"
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ]
+  }
+}

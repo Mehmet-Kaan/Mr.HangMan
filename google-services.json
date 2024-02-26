@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1002930644393",
+    "firebase_url": "https://mrhangman-6ecab-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mrhangman-6ecab",
+    "storage_bucket": "mrhangman-6ecab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002930644393:android:f08683d2f040347ab590b8",
+        "android_client_info": {
+          "package_name": "com.mkaan.mrhangman"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7xCmhBsR8wLPDoFAPovddAYRcIz4NyqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
